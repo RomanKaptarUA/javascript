@@ -96,3 +96,30 @@ console.log(Math.min(25, 2.5, 5));
 console.log(Math.pow(2, 5));
 console.log(Math.random() * (10-1) + 1);
 
+const a = 'hello ' + 'GOITeens';
+console.log(typeof a);
+console.log(a);
+
+let b;
+b = 7 + '3';
+console.log(b);
+console.log(typeof b);
+
+h = 5 + '5' + 5;
+console.log(h);
+
+c = 5 + 5 + '5';
+console.log(c);
+
+const y = 'Welcome to Ukraine!';
+console.log(y.length);
+
+console.log('Obocniki nahui' .length);
+
+console.log(y.toUpperCase());
+
+console.log(y.indexOf('Uk'));
+
+console.log(y.includes('welcome'));
+console.log(y.includes('Welcome'));
+
