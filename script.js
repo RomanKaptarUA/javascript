@@ -23,34 +23,76 @@
 // const message = prompt("Чи погоджуєтесь ви з умовами?");
 // console.log(message);
 
-const x = 5;
-const y = 2;
-const z = 5;
+// const x = 5;
+// const y = 2;
+// const z = 5;
 
-console.log(x + y);
-console.log(x - y);
-console.log(x * y);
-console.log(x / y);
-console.log(x % y);
+// console.log(x + y);
+// console.log(x - y);
+// console.log(x * y);
+// console.log(x / y);
+// console.log(x % y);
 
 // let b = 20;
 // b += 10;
 // console.log(a);
 
-console.log(x > y);
-console.log(x < y);
-console.log(x <- z);
-console.log(x == y);
-console.log(x != z);
-console.log(x === y);
+// console.log(x > y);
+// console.log(x < y);
+// console.log(x <- z);
+// console.log(x == y);
+// console.log(x != z);
+// console.log(x === y);
+
+
+// const a = "5";
+// console.log(Number(a));
+// console.log(typeof Number(a));
+// const b = "hello";
+// console.log(Number(b));
+
+// const a = 5;
+// const b = "5";
+// console.log(a == b);
+// console.log(a === b);
+
+// const a = "5";
+// console.log(Number(a));
+// console.log(typeof Number(a));
+
+// const b = "Hello";
+// console.log(Number(b));
+// console.log(typeof Number(b));
+
+// console.log(Number.parseInt('20px'));
+// console.log(Number.parseInt('3.14px'));
+// console.log(Number.parseInt('hammali'));
+
+// console.log(Number.parseFloat('1234567.99adfg0jhkk'));
+// console.log(Number.parseFloat('0'));
+
+// const a = Number('20');
+// console.log(Number.isNaN(a));
+
+// console.log(0.1 + 0.2 === 0.4);
+// console.log(0.1 + 0.2);
+
+// console.log((0.1 * 10 + 0.2 *10) / 10);
 
 
 
 
-const a="5";
-console.log(Number(a));
-console.log(typeof Number(a));
-const b ="hello";
-console.log(Number(b));
 
+
+
+
+
+// console.log(Math.floor(2.8));
+console.log(Math.ceil(1.001));
+console.log(Math.round(1.4));
+console.log(Math.round(99.6));
+console.log(Math.max(100, 25 ,50));
+console.log(Math.min(25, 2.5, 5));
+console.log(Math.pow(2, 5));
+console.log(Math.random() * (10-1) + 1);
 
