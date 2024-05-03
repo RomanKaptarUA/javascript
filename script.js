@@ -88,38 +88,64 @@
 
 
 // console.log(Math.floor(2.8));
-console.log(Math.ceil(1.001));
-console.log(Math.round(1.4));
-console.log(Math.round(99.6));
-console.log(Math.max(100, 25 ,50));
-console.log(Math.min(25, 2.5, 5));
-console.log(Math.pow(2, 5));
-console.log(Math.random() * (10-1) + 1);
+// console.log(Math.ceil(1.001));
+// console.log(Math.round(1.4));
+// console.log(Math.round(99.6));
+// console.log(Math.max(100, 25 ,50));
+// console.log(Math.min(25, 2.5, 5));
+// console.log(Math.pow(2, 5));
+// console.log(Math.random() * (10-1) + 1);
 
-const a = 'hello ' + 'GOITeens';
-console.log(typeof a);
-console.log(a);
+// const a = 'hello ' + 'GOITeens';
+// console.log(typeof a);
+// console.log(a);
 
-let b;
-b = 7 + '3';
-console.log(b);
-console.log(typeof b);
+// let b;
+// b = 7 + '3';
+// console.log(b);
+// console.log(typeof b);
 
-h = 5 + '5' + 5;
-console.log(h);
+// h = 5 + '5' + 5;
+// console.log(h);
 
-c = 5 + 5 + '5';
-console.log(c);
+// c = 5 + 5 + '5';
+// console.log(c);
 
-const y = 'Welcome to Ukraine!';
-console.log(y.length);
+// const y = 'Welcome to Ukraine!';
+// console.log(y.length);
 
-console.log('Obocniki nahui' .length);
+// console.log('Obocniki nahui' .length);
 
-console.log(y.toUpperCase());
+// console.log(y.toUpperCase());
 
-console.log(y.indexOf('Uk'));
+// console.log(y.indexOf('Uk'));
 
-console.log(y.includes('welcome'));
-console.log(y.includes('Welcome'));
+// console.log(y.includes('welcome'));
+// console.log(y.includes('Welcome'));
 
+const a = 'Welcome to Ukraine!';
+console.log(a.startsWith('We'));
+console.log(a.endsWith('!'));
+console.log(a.padEnd(22, '!'));
+console.log(a.padStart(20, '@'));
+
+
+
+
+// без пробілів
+const s ='     Hello       ';
+console.log(s.trim());
+
+
+
+
+
+
+const name = 'Welcome';
+const age = 27;
+
+// const message = 'Мене звуть' + ' ' + name + ' ' + 'мені' + ' ' + age;
+// console.log(message);
+
+const message = `Мене звуть ${name}, мені ${age} років`;
+console.log(message);
