@@ -144,8 +144,6 @@ console.log(s.trim());
 const name = 'Welcome';
 const age = 27;
 
-// const message = 'Мене звуть' + ' ' + name + ' ' + 'мені' + ' ' + age;
-// console.log(message);
 
-const message = `Мене звуть ${name}, мені ${age} років`;
-console.log(message);
+// const message = `Мене звуть ${name}, мені ${age} років`;
+// console.log(message);
