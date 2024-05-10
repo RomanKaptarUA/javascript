@@ -123,27 +123,177 @@
 // console.log(y.includes('welcome'));
 // console.log(y.includes('Welcome'));
 
-const a = 'Welcome to Ukraine!';
-console.log(a.startsWith('We'));
-console.log(a.endsWith('!'));
-console.log(a.padEnd(22, '!'));
-console.log(a.padStart(20, '@'));
+// const a = 'Welcome to Ukraine!';
+// console.log(a.startsWith('We'));
+// console.log(a.endsWith('!'));
+// console.log(a.padEnd(22, '!'));
+// console.log(a.padStart(20, '@'));
 
 
 
 
 // без пробілів
-const s ='     Hello       ';
-console.log(s.trim());
+// const s ='     Hello       ';
+// console.log(s.trim());
 
 
 
 
 
 
-const name = 'Welcome';
-const age = 27;
+// const name = 'Welcome';
+// const age = 27;
 
 
 // const message = `Мене звуть ${name}, мені ${age} років`;
 // console.log(message);
+
+// let value = 'hello';
+// console.log(Boolean(value));
+
+// const number = 15;
+// const result = number > 10 && number < 20;
+// console.log(result);
+
+// const asa = 15;
+// const ce = asa > 16 && asa < 20;
+// console.log(ce);
+
+// ||
+const nomer = 15;
+const qq = nomer < 20 || nomer > 30;
+console.log(qq);
+
+console.log(!true);
+console.log(!false);
+console.log(!0);
+
+// let cost = 0;
+// const sub = 'pro';
+// if(sub === 'pro') {
+//     cost = 100; 
+// }
+// console.log(cost);
+
+
+
+
+
+// let cost;
+// const sub 'pro';
+
+// if (sub === 'pro') { 
+//     cost = 100;
+// } else {
+//     cost 0;
+// }
+
+
+
+// let cost;
+// const sub = 'premium';
+
+// if (sub === 'normal'){
+//     cost = 0; 
+// } else if (sub === 'premium') {
+//     cost = 100;
+// } else if (sub === 'free') {
+//     cost = 200;
+// } else {
+//     console.log("Помилка");
+// }
+
+// console.log(cost);
+
+let a;
+let free = 'free';
+let pro = 'pro';
+let vip = 'vip';
+if (a === 'pro'){
+     console.log("Вхід дозволено");
+} else if (a === 'pro'){
+    console.log("Вчід дозволено");
+} else if (a === 'free'){
+    console.log("Вхід не дозволено");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
