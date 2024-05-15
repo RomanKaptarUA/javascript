@@ -160,13 +160,13 @@
 // console.log(ce);
 
 // ||
-const nomer = 15;
-const qq = nomer < 20 || nomer > 30;
-console.log(qq);
+// const nomer = 15;
+// const qq = nomer < 20 || nomer > 30;
+// console.log(qq);
 
-console.log(!true);
-console.log(!false);
-console.log(!0);
+// console.log(!true);
+// console.log(!false);
+// console.log(!0);
 
 // let cost = 0;
 // const sub = 'pro';
@@ -205,54 +205,58 @@ console.log(!0);
 
 // console.log(cost);
 
-let a;
-let free = 'free';
-let pro = 'pro';
-let vip = 'vip';
-if (a === 'pro'){
-     console.log("Вхід дозволено");
-} else if (a === 'pro'){
-    console.log("Вчід дозволено");
-} else if (a === 'free'){
-    console.log("Вхід не дозволено");
-}
+// let a;
+// let free = 'free';
+// let pro = 'pro';
+// let vip = 'vip';
+// if (a === 'pro'){
+//      console.log("Вхід дозволено");
+// } else if (a === 'pro'){
+//     console.log("Вчід дозволено");
+// } else if (a === 'free'){
+//     console.log("Вхід не дозволено");
+// }
 
+// let type;
+// const age = 19;
 
+// if (age >= 18 ) {
+//     type = 'adult';
+// } else {
+//     type = 'child';
+// }
 
+// const age = 19;
+// const type = age >= 18 ? 'adult' : 'child';
 
+// const num1 = 10;
+// const num2 = 20;
+// const bigger = num1 > num2 ? num1 : num2;
+// let bigger;
 
+// if (num1 > num2) {
+//     bigger = num1;
+// } else {
+//     bigger = num2;
+// }
 
+// console.log(bigger);
 
+// const input = prompt('your number');
+// if (input > 1){
+//     console.log('1');
+// }
+// else if (input < 0){
+//     console.log('-1');
+// }
+// else {
+//     console.log('0');
+// }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+const a = 3;
+const b = 5;
+const result = a + b < 4 ? 'Lower' : 'Higher';
+console.log(result);
 
 
 
