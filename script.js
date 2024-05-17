@@ -253,10 +253,86 @@
 //     console.log('0');
 // }
 
-const a = 3;
-const b = 5;
-const result = a + b < 4 ? 'Lower' : 'Higher';
-console.log(result);
+// const a = 3;
+// const b = 5;
+// const result = a + b < 4 ? 'Lower' : 'Higher';
+// console.log(result);
+
+// let cost;
+// const sub = 'premium';
+// switch (sub) {
+//         case 'free' : 
+//         cost = 0;
+//         break;
+//         case 'pro' :
+//         cost = 50;
+//         break;
+//         case 'premium' :
+//         cost = 200;
+//         default :
+//         console.log('Немає жодної відповіді');    
+//     } 
+// console.log(cost);
+
+
+
+
+// let a = parseInt(prompt('enter number'));
+// let letter;
+// switch (a){
+//     case 0 :
+//     letter = 0;
+//     break;
+//     case 1 :
+//     letter = 1;
+//     break;
+//     case 2 : 
+//     case 3 : 
+//     letter = 2,3;
+//     break;
+//     default :
+//     console.log('Помилка');
+// }
+// document.getElementById('result').letter = letter;
+
+
+
+
+
+
+
+
+
+
+
+
+const isOnline = true;
+const isFriend = true;
+const isDnd = true;
+if (isOnline && isFriend && isDnd){
+    console.log('Час з користувачем дозволено');
+} 
+else{
+    console.log('Час з користувачем не дозволено');
+}
+
+const x1 = 10;
+const x2 = 30;
+const number = 45;
+if (x1 < number) {
+    console.log('more than 10');
+} else if (x2 > number) {
+    console.log('more than 30')
+}
+
+
+
+
+
+
+
+
+
 
 
 
