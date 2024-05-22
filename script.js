@@ -306,74 +306,98 @@
 
 
 
-const isOnline = true;
-const isFriend = true;
-const isDnd = true;
-if (isOnline && isFriend && isDnd){
-    console.log('Час з користувачем дозволено');
-} 
-else{
-    console.log('Час з користувачем не дозволено');
+// const isOnline = true;
+// const isFriend = true;
+// const isDnd = true;
+// if (isOnline && isFriend && isDnd){
+//     console.log('Час з користувачем дозволено');
+// } 
+// else{
+//     console.log('Час з користувачем не дозволено');
+// }
+
+// const x1 = 10;
+// const x2 = 30;
+// const number = 45;
+// if (x1 < number) {
+//     console.log('more than 10');
+// } else if (x2 > number) {
+//     console.log('more than 30')
+// }
+
+
+
+// if(stars === 1) {
+//     price = 20;
+// } else if(stars === 2) {
+// price = 30;
+// } else if(stars === 3) {
+//     price = 90;
+// } else if(stars === 4) {
+//     price = 300;
+// } else {
+//     console.log('нема такого)')
+// }
+
+// let stars;
+
+// switch(stars){
+
+//      case 1:
+//      price = 20;        
+//      case 2:
+//      price = 30;
+
+//      case 3:
+//      price = 50;
+
+//      default:
+//         console.log('Нема такого)')
+// }
+
+// console.log(price);
+
+
+
+// let height = 167;
+
+// if(true){
+//     let weight = 60;
+//     console.log(weight)
+//     console.log(height)
+// }
+
+// console.log(weight)
+// console.log(height)
+
+// let aa ;
+
+// switch(aa){
+//     case 0:
+
+//         console.log(0);
+//         break;
+//         case 1:
+//         console.log(1);
+//         break;
+//         case 2:
+//             case 3:
+//         console.log(2, 3);
+//             break;
+//             default:
+//                 console.log(`def`);
+//                 break;
+// }
+
+// let name = 'kateryna'
+
+let time = 19;
+
+if(time >= 9 && time <= 18) {
+    console.log('Посилка буде відправлена сьогодні вам передзвонит менеджер')
+} else {
+    console.log('Помилка')
 }
-
-const x1 = 10;
-const x2 = 30;
-const number = 45;
-if (x1 < number) {
-    console.log('more than 10');
-} else if (x2 > number) {
-    console.log('more than 30')
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
