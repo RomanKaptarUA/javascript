@@ -423,58 +423,39 @@
 //    sum += i
 // }
 
-for (let i = 0; i < 10; i += 1){
-    if (i === 6) {
-        break;
-    }
-}
+// for (let i = 0; i < 10; i += 1){
+//     if (i === 6) {
+//         break;
+//     }
+// }
 
-const sum = 10;
-for (let i = 0; i < 10; i += 1){
-    if (i % 2 === 0) {
-        continue;
-    }
-    console.log('непарні');
-}
+// const sum = 10;
+// for (let i = 0; i < 10; i += 1){
+//     if (i % 2 === 0) {
+//         continue;
+//     }
+//     console.log('непарні');
+// }
 
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const fruits = ['apple', 12, true, '', undefined];
+// const fruits = ['apple', 'kiwi', 'mango'];
+// console.log(fruits);
 
+// console.log(fruits['10']);
+// fruits[0] = 'orange';
+// console.table(fruits);
 
+// const arr = ['cat', 'dog', 'bird'];
+// arr[10] = 'fish';
+// console.log(arr);
 
+// console.log(fruits.length)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+const arr = ['Mclaren', 'Nissan', 'BMW', 'Mercedes', 'Ford'];
+console.log(arr(0));
+console.log(arr.length);
+console.table(arr)
 
 
 
