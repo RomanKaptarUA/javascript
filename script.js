@@ -452,12 +452,90 @@
 
 // console.log(fruits.length)
 
-const arr = ['Mclaren', 'Nissan', 'BMW', 'Mercedes', 'Ford'];
-console.log(arr(0));
-console.log(arr.length);
-console.table(arr)
+// const arr = ['Mclaren', 'Nissan', 'BMW', 'Mercedes', 'Ford'];
+// console.log(arr(0));
+// console.log(arr.length);
+// console.table(arr);
 
 
+
+
+
+
+//for
+// const names = ['Юля', 'Ніка', 'Софія'];
+// const namefind = 'Ніка';
+// let message;
+// for (const name of names){
+//     if (name === nameFind){
+//         message = 'Знайдено';
+//     break;    
+//     }
+//     message = 'Не знайдено';
+// }
+// console.log(message);
+
+
+
+
+
+// for (let i = 0; i < names.length; i += 1){
+//     console.log('Ім*я:', names[i]);
+// }
+
+// for (const name of names){
+//     console.log(name)
+// }
+
+
+
+
+
+
+
+
+
+
+
+// const numbers = [20, 12, 6, 1, 2, 66, 666, 34, 10, 133];
+// const sum = 15;
+// for (let i = 0; i < numbers.length; i += 1){
+//     if (numbers[i] < sum){
+//         continue;
+//     }
+//     console.log(`Число більше ${sum} - ${numbers[i]}`);
+// }
+
+// const arr = [
+//     [1, 3, 0, 10, 4],
+//     [2, 55, 66, 100, 92],
+//     [36, 90, 35, 50, 70]
+// ]
+// console.log(arr[0][2]);
+// console.log(arr[2][0]);
+
+
+// const string = 'hello GoITeens';
+// for (const letters of string){
+//     console.log(letters);
+// }
+
+// const cart = [54, 28, 105, 70, 92, 17, 120, 12, 25, 90];
+// let total = 0;
+// for (let i = 0; 1 < cart.length; 1++){
+//     total += card[i]{
+//         console.log(total)
+//     }
+// }
+
+const numbers = [1, 5, 8, 9, 12, 4, 15, 27, 30, 18, 14];
+let total = 0;
+for (let i = 0; i < numbers.length; i += 1){
+    if (numbers[i] % 2 === 0){
+        total += numbers[i];
+        
+    }
+}
 
 
 
