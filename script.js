@@ -733,6 +733,34 @@
 //     console.log(value);
 // }
 
+// const add = (...arg) =>{
+//     console.log(arg);
+// }
 
+// add(1, 2, 3, 4, 5);
 
+// myNewArrowFunction (a, b, c) = (...arg) => {
+//     console.log(arg);
+// }
 
+// myNewArrowFunction(1, 2, 3);
+// myNewArrowFunction(100, 200, 300, 400, 500);
+// myNewArrowFunction("Js", "Python", "Java", "PHP", "C++");
+
+// const helloOne = () =>
+// console.log(helloOne());
+
+// const hello2 = (none) => `Hello ${none}`
+// console.log(hello2('Artem'));
+
+const nu1 = (n, m) => {
+    return{
+        sum: n + m
+        mn: n * m;
+        riz: n + m;
+}
+    console.log(n * m);
+    console.log(n + m);
+    console.log(n - m);
+};;
+nu1(2, 3);
