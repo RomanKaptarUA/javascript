@@ -753,14 +753,61 @@
 // const hello2 = (none) => `Hello ${none}`
 // console.log(hello2('Artem'));
 
-const nu1 = (n, m) => {
-    return{
-        sum: n + m
-        mn: n * m;
-        riz: n + m;
+// const nu1 = (n, m) => {
+//     return{
+//         sum: n + m
+//         mn: n * m;
+//         riz: n + m;
+// }
+//     console.log(n * m);
+//     console.log(n + m);
+//     console.log(n - m);
+// };;
+// nu1(2, 3);
+
+const user = {
+    name: 'Carl',
+    age: 14, 
+
+};
+console.log(user.name);
+console.log(user['name']);
+
+user.name = 'Alex';
+console.log(user.name);
+console.log(user['name']);
+user['age'] = 15;
+console.log(user.age);
+console.log(user);
+
+user.address = 'Mamayvtsi';
+console.log(user);
+console.log(user.class);
+
+const hotel = {
+    name: 'Hilton',
+    stars: 5,
+    capacity: 250,
+};
+
+delete hotel.stars;
+console.log(hotel);
+
+let name = 'Hilton';
+let stars = 5;
+
+
+const myArray = {
+    name: 'Roman',
+    age: 14,
+    city: 'Kyiv',
+    occupation: 'student on holidays',
 }
-    console.log(n * m);
-    console.log(n + m);
-    console.log(n - m);
-};;
-nu1(2, 3);
+
+myArray.name = 'Maks';
+console.log(myArray);
+delete myArray.age;
+console.log(myArray);
+
+myArray.adrress = 'Hryscatyk';
+console.log(myArray)
