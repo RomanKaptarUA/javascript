@@ -765,49 +765,92 @@
 // };;
 // nu1(2, 3);
 
-const user = {
-    name: 'Carl',
-    age: 14, 
+// const user = {
+//     name: 'Carl',
+//     age: 14, 
 
+// };
+// console.log(user.name);
+// console.log(user['name']);
+
+// user.name = 'Alex';
+// console.log(user.name);
+// console.log(user['name']);
+// user['age'] = 15;
+// console.log(user.age);
+// console.log(user);
+
+// user.address = 'Mamayvtsi';
+// console.log(user);
+// console.log(user.class);
+
+// const hotel = {
+//     name: 'Hilton',
+//     stars: 5,
+//     capacity: 250,
+// };
+
+// delete hotel.stars;
+// console.log(hotel);
+
+// let name = 'Hilton';
+// let stars = 5;
+
+
+// const myArray = {
+//     name: 'Roman',
+//     age: 14,
+//     city: 'Kyiv',
+//     occupation: 'student on holidays',
+// }
+
+// myArray.name = 'Maks';
+// console.log(myArray);
+// delete myArray.age;
+// console.log(myArray);
+
+// myArray.adrress = 'Hryscatyk';
+// console.log(myArray);
+
+///////////////5
+// const hotel = {
+//     name: 'Hilton',
+//     stars: 5,
+//     get: function () {
+//         console.log('Hello!');
+//     },
+
+
+
+// /////////////////6
+// getOne() {
+//     console.log('Hello!');
+// }
+// }
+// hotel.get();
+// hotel.getOne();
+
+// hotel.address =nfunction () {
+//     console.log()
+// }
+
+// const life = {
+//     name: 'Roman',
+//     age: 14,
+//     hobby: 'I have a lot',
+
+// }
+
+const car = {
+    brand: 'BMW',
+    model: 'M5',
+    year: 2021,
+    color: 'black',
+    get: function () {
+        const info = `brand: ${this.brand}, model: ${this.model}, year: ${this.year}, color: ${this.color}`;
+        document.getElementById('carInfo').innerText = info;
+    }
 };
-console.log(user.name);
-console.log(user['name']);
-
-user.name = 'Alex';
-console.log(user.name);
-console.log(user['name']);
-user['age'] = 15;
-console.log(user.age);
-console.log(user);
-
-user.address = 'Mamayvtsi';
-console.log(user);
-console.log(user.class);
-
-const hotel = {
-    name: 'Hilton',
-    stars: 5,
-    capacity: 250,
-};
-
-delete hotel.stars;
-console.log(hotel);
-
-let name = 'Hilton';
-let stars = 5;
+car.get()
 
 
-const myArray = {
-    name: 'Roman',
-    age: 14,
-    city: 'Kyiv',
-    occupation: 'student on holidays',
-}
-
-myArray.name = 'Maks';
-console.log(myArray);
-delete myArray.age;
-console.log(myArray);
-
-myArray.adrress = 'Hryscatyk';
-console.log(myArray)
