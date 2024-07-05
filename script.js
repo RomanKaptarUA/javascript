@@ -841,16 +841,75 @@
 
 // }
 
-const car = {
-    brand: 'BMW',
-    model: 'M5',
-    year: 2021,
-    color: 'black',
-    get: function () {
-        const info = `brand: ${this.brand}, model: ${this.model}, year: ${this.year}, color: ${this.color}`;
-        document.getElementById('carInfo').innerText = info;
-    }
-};
-car.get()
+// const car = {
+//     brand: 'BMW',
+//     model: 'M5',
+//     year: 2021,
+//     color: 'black',
+//     get: function () {
+//         const info = `brand: ${this.brand}, model: ${this.model}, year: ${this.year}, color: ${this.color}`;
+//         document.getElementById('carInfo').innerText = info;
+//     }
+// };
+// car.get();
+
+// const user = {
+//     name: 'Jacob',
+//     age: 15,
+//     class: 10,
+// }
+
+// for (const key in user) {
+//     console.log('Ключі:', key);
+// }
 
 
+// for (const key in user) {
+//     console.log('Значення: ', user[key]);
+// }
+
+// const keys = Object.keys(user);
+// console.log(keys);
+
+
+// const values = Object.values(user);
+// console.log(values); 
+
+// const entries = Object.entries(user);
+// console.log(entries);
+
+// const hotel = {
+//     name: 'Hilton',
+//     stars: 5,
+//     capacity: 250,
+// };
+// const keys = Object.keys(hotel);
+// console.log(keys);
+
+// for (const key of keys) {
+//     console.log('Value: ', hotel[key]);
+// }
+
+// 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const names = ['Артур', 'Дмитрий', 'Роман', 'Софія', 'Давід', 'Юля'];
+const spreadNames = [...names];
+console.log(names);
+console.log(spreadNames);
+console.log(names === spreadNames);
+const sliceNames = names.slice()
