@@ -907,9 +907,43 @@
 
 
 
-const names = ['Артур', 'Дмитрий', 'Роман', 'Софія', 'Давід', 'Юля'];
-const spreadNames = [...names];
-console.log(names);
-console.log(spreadNames);
-console.log(names === spreadNames);
-const sliceNames = names.slice()
+// const names = ['Артур', 'Дмитрий', 'Роман', 'Софія', 'Давід', 'Юля'];
+// const spreadNames = [...names];
+// console.log(names);
+// console.log(spreadNames);
+// console.log(names === spreadNames);
+// const sliceNames = names.slice();
+
+
+
+
+// const names = ['Sara', 'Nick', 'Din', 'Alex'];
+// const newNames = [
+//     ...names.slice(0, 1),
+//     'Bob',
+//     ...names.slice(3),
+// ];
+// console.log(newNames);
+
+
+// const a = {
+//     x: 50,
+//     y: 10,
+// };
+// const b = {
+//     x: 20,
+//     c: 25,
+// }
+
+
+
+
+
+
+
+
+// const d = Object.assign([], a, b);
+// console.log(d);
+
+
+
