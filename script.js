@@ -947,3 +947,10 @@
 
 
 
+const hotel = {
+    name: 'hilton',
+    stars: 5,
+    capacity: 250,
+}
+const {name, stars, capacity} = hotel;
+console.log(name, stars, capacity);
