@@ -947,10 +947,88 @@
 
 
 
-const hotel = {
-    name: 'hilton',
-    stars: 5,
-    capacity: 250,
-}
-const {name, stars, capacity} = hotel;
-console.log(name, stars, capacity);
+// const hotel = {
+//     name: 'hilton',
+//     stars: 5,
+//     capacity: 250,
+// }
+// const {name, stars, capacity} = hotel;
+// console.log(name, stars, capacity);
+
+const books = {
+    count: 3,
+    list: [
+    {
+    title: 'The Great Gatsby',
+    author: 'F. Scott Fitzgerald',
+    year: 1925
+    },
+
+    {
+    title: 'To Kill a Mockingbird',
+    author: 'Harper Lee',
+    year: 1960
+    },
+
+    {
+    title: '1984',
+    author: 'George Orwell',
+    year: 1949
+    }
+    ]
+    }
+
+    // const {count, list} = books;
+
+    // const [book1, book2, book3] = list;
+    // const {title: title1, author: author1, year: year1} = book1;
+    // const {title: title2, author: author2, year: year2} = book2;
+    // const {title: title3, author: author3, year: year3} = book3;
+    
+    // console.log( title1, author1, year1) = book1;
+    // console.log( title2, author2, year2) = book2;
+    // console.log( title3, author3, year3) = book3;
+
+    // Напишіть функцію, яка отримує об'єкт з ім'ям, прізвищем та віком та використовує деструктуризацію для повернення рядка, що містить інформацію про цю людину в такому форматі: "Мене звати Ім'я Прізвище і мені Вік років".
+    // const person = {
+    // name: 'Nelli',
+    // surname: 'Laroy',
+    // age: 25
+    // };
+
+    // const personInfo = (obj) => {
+    //     const {name, surname, age} = obj;
+    //     return `My name is ${name}, ${surname}, I am ${age} years old`;
+    // }
+    
+    // console.log(personInfo(person));
+
+    // Напишіть функцію, яка приймає об'єкт, що містить інформацію про студента (ім'я, прізвище, оцінки за три предмети) та використовує деструктуризацію для повернення середньої оцінки студента.
+// const student = {
+// name: 'Bruce',
+// surname: 'Lee',
+// grades: [4, 5, 3]
+// };
+
+// const calculateAverageGrade = ({grades}) => {
+//     const [first, second, third] = grades;
+//     return ((first + second + third) / grades.length);
+// };
+
+// console.log(calculateAverageGrade(student));
+
+const items = [
+    { name: 'Футболка', price: 250, quantity: 2 },
+    { name: 'Джинси', price: 800, quantity: 1 },
+    { name: 'Кросівки', price: 1200, quantity: 1 }
+    ];
+    
+    const calculateTotalCost = (item) => {
+        let totalCost = 0;
+        for (const {price, quantity } of items) {
+            totalCost += price * quantity;
+        }
+        return totalCost;
+    };
+
+    console.log(calculateTotalCost(items));
