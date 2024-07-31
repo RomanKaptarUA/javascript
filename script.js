@@ -955,28 +955,28 @@
 // const {name, stars, capacity} = hotel;
 // console.log(name, stars, capacity);
 
-const books = {
-    count: 3,
-    list: [
-    {
-    title: 'The Great Gatsby',
-    author: 'F. Scott Fitzgerald',
-    year: 1925
-    },
+// const books = {
+//     count: 3,
+//     list: [
+//     {
+//     title: 'The Great Gatsby',
+//     author: 'F. Scott Fitzgerald',
+//     year: 1925
+//     },
 
-    {
-    title: 'To Kill a Mockingbird',
-    author: 'Harper Lee',
-    year: 1960
-    },
+//     {
+//     title: 'To Kill a Mockingbird',
+//     author: 'Harper Lee',
+//     year: 1960
+//     },
 
-    {
-    title: '1984',
-    author: 'George Orwell',
-    year: 1949
-    }
-    ]
-    }
+//     {
+//     title: '1984',
+//     author: 'George Orwell',
+//     year: 1949
+//     }
+//     ]
+//     }
 
     // const {count, list} = books;
 
@@ -1017,21 +1017,21 @@ const books = {
 
 // console.log(calculateAverageGrade(student));
 
-const items = [
-    { name: 'Футболка', price: 250, quantity: 2 },
-    { name: 'Джинси', price: 800, quantity: 1 },
-    { name: 'Кросівки', price: 1200, quantity: 1 }
-    ];
+// const items = [
+//     { name: 'Футболка', price: 250, quantity: 2 },
+//     { name: 'Джинси', price: 800, quantity: 1 },
+//     { name: 'Кросівки', price: 1200, quantity: 1 }
+//     ];
     
-    const calculateTotalCost = (item) => {
-        let totalCost = 0;
-        for (const {price, quantity } of items) {
-            totalCost += price * quantity;
-        }
-        return totalCost;
-    };
+//     const calculateTotalCost = (item) => {
+//         let totalCost = 0;
+//         for (const {price, quantity } of items) {
+//             totalCost += price * quantity;
+//         }
+//         return totalCost;
+//     };
 
-    console.log(calculateTotalCost(items));
+//     console.log(calculateTotalCost(items));
 
 
 
@@ -1085,5 +1085,73 @@ const items = [
     // console.log(numbers);
     // console.log(doubledNumbers);
 
-    const numbers = [1, 2, 3, 4, 5, 6];
-    numbers.forEach(num => console.log(num));
+    // const numbers = [1, 2, 3, 4, 5, 6];
+    // numbers.forEach(num => console.log(num));
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    //filter
+//     const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+//     console.log(numbers.filter(num => num < 5));
+//     console.log(numbers.filter(num => num > 5));
+
+//     console.log(numbers.filter(num => num === 5));
+
+
+//     const users = [
+//    {name: 'Alex', isActive: true},
+//    {name: 'Bob', isActive: false},
+//    {name: 'Nick', isActive: true},
+//    {name: 'Anna', isActive: true},
+//    {name: 'Dilan', isActive: false},
+     
+//     ];
+//     const userActive = users.filter(user => user.isActive);
+//     console.log(userActive);
+
+//find
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+// console.log(numbers.find(num => num > 6));
+
+// const users = [
+//     {name: 'Alex', isActive: true, id: '1'},
+//     {name: 'Bob', isActive: false, id: '2'},
+//     {name: 'Nick', isActive: true, id: '3'},
+//     {name: 'Anna', isActive: true, id: '4'},
+//     {name: 'Dilan', isActive: false, id: '5'},
+// ];
+// console.log(users.find(user => user.id === '3'));
+
+
+
+
+
+
+
+
+
+const numbers = [17, 52, 65, 41, 12, 9];
+const sum = numbers.reduce((acc, value) => acc + value, 0);
+console.log(sum);
+
+const tweets = [
+{ id: '012', likes: 23, tags: ['css', 'sass']},
+{ id: '017', likes: 2211, tags: ['js', 'javascript']},
+{ id: '018', likes: 11, tags: ['css', 'html']},
+{ id: '019', likes: 21, tags: ['react', 'js']},
+{ id: '024', likes: 21, tags: ['nodejs','js']},    
+]
+const likes = tweets.reduce((totalLikes, tweet) => totalLikes + tweet);
+console.log(likes);
