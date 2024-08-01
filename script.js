@@ -1061,6 +1061,10 @@
     // })
 
     // console.log(filterNumbers);
+
+
+
+
     
 
     // const a = (array, value) => {
@@ -1142,16 +1146,73 @@
 
 
 
-const numbers = [17, 52, 65, 41, 12, 9];
-const sum = numbers.reduce((acc, value) => acc + value, 0);
-console.log(sum);
+// const numbers = [17, 52, 65, 41, 12, 9];
+// const sum = numbers.reduce((acc, value) => acc + value, 0);
+// console.log(sum);
 
-const tweets = [
-{ id: '012', likes: 23, tags: ['css', 'sass']},
-{ id: '017', likes: 2211, tags: ['js', 'javascript']},
-{ id: '018', likes: 11, tags: ['css', 'html']},
-{ id: '019', likes: 21, tags: ['react', 'js']},
-{ id: '024', likes: 21, tags: ['nodejs','js']},    
-]
-const likes = tweets.reduce((totalLikes, tweet) => totalLikes + tweet);
-console.log(likes);
+// const tweets = [
+// { id: '012', likes: 23, tags: ['css', 'sass']},
+// { id: '017', likes: 2211, tags: ['js', 'javascript']},
+// { id: '018', likes: 11, tags: ['css', 'html']},
+// { id: '019', likes: 21, tags: ['react', 'js']},
+// { id: '024', likes: 21, tags: ['nodejs','js']},    
+// ]
+// const likes = tweets.reduce((totalLikes, tweet) => totalLikes + tweet);
+// console.log(likes);
+
+
+
+
+
+
+
+
+
+
+const baseSalary = 20000;
+const overtime = 15;
+const rate = 20;
+const getWage = (baseSalary, overtime, rate) => {
+    return baseSalary + overtime * rate;
+}
+
+
+
+
+
+
+
+
+//ООП
+
+// 46 
+
+
+// getWage(baseSalary, overtime, rate);
+
+// const employee = {
+//     baseSalary: 20000,
+//     overtime: 15,
+//     rate: 20,
+//     getWage() {
+//         return this.baseSalary + this.overtime * this.rate;
+//     }
+// }
+
+// employee.getWage();
+
+// const animal = {
+//     legs: 4,  
+// }
+
+// const cat = Object.create(animal);
+// cat.name = 'Bob';
+// console.log(cat);
+
+const animal = {
+    eats: true,
+}
+const dog = Object.create(animal);
+dog.barks = true;
+const keysDog = Object.keys(dog);
+console.log(keysDog);
