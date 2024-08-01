@@ -1209,10 +1209,86 @@ const getWage = (baseSalary, overtime, rate) => {
 // cat.name = 'Bob';
 // console.log(cat);
 
-const animal = {
-    eats: true,
+// const animal = {
+//     eats: true,
+// }
+// const dog = Object.create(animal);
+// dog.barks = true;
+// const keysDog = Object.keys(dog);
+// console.log(keysDog);
+
+
+
+
+// .
+
+// // class User {
+// //     #mail;
+// // constructor({name, age, mail }) {
+// //     this.name = name;
+// //     this.age = age;
+// //     this.mail = mail;
+// //     this.#mail = mail;
+// // }
+// // getMail() {
+// //     return this.#mail;
+// // }
+// // changeMail(newMail) {
+// //     return this.#mail = newMail;
+// // }
+// // }
+
+// const a = new User('User122222222', '22');
+// console.log(a);
+
+// const b = new User('Nika', '22');
+// console.log(b);
+
+// const a = new User({
+//     name: 'Bob',
+//     age: '22',
+//     mail: 'bob@gmail.com',
+// });
+// console.log(a);
+
+// const b = new User({
+//     name: 'Nika',
+//     age: '14',
+//     mail: 'newbob@gmail.com',
+// });
+// console.log(b);
+
+//get set
+class User{
+    #mail;
+    constructor({name, age, mail }) {
+        this.name = name;
+        this.age = age;
+        this.#mail = mail;
+    }
+    get mail() {
+        return this.mail;
+    }
+    set mail(newMail) {
+        if (newMail === "") {
+            console.log("Error");
+            return;
+        }
+        this.#mail = newMail;
+    }
 }
-const dog = Object.create(animal);
-dog.barks = true;
-const keysDog = Object.keys(dog);
-console.log(keysDog);
+
+
+const c = new User({
+    mail: 'newbob@gmail.com',
+    role: User.Roles.ADMIN,
+});
+console.log(c.Roles);
+console.log(User.Roles);
+
+
+
+
+
+
+
