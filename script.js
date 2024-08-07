@@ -1286,6 +1286,56 @@ const c = new User({
 console.log(c.Roles);
 console.log(User.Roles);
 
+// class User {
+//     static #takenEmails = [];
+    
+// static isEmails(email) {
+//     return User.#takenEmails.includes(email);
+// }
+
+// #email;
+// constructor({ email }) {
+//     this.#email = email;
+//     User.#takenEmails.push(email);
+// }
+// }
+// const newMail = new User({ email: 'test@gmail.com'});
+// console.log(User.isEmails('test-one@gmail.com'));
+
+// class Child extends Parent{
+
+// }
+
+
+// extends
+
+class User{
+    #email;
+    constructor(email) {
+        this.#email = email;
+    }
+    get email() {
+        return this.#email;
+    }
+    set email(newEmail) {
+      this.#email = newEmail;
+    }
+}
+
+class Admin extends User{
+    // щось додаємо за потреби
+    constructor({ email, post }) {
+        super(email);
+        this.post = post;
+    }
+}
+
+const admin = new Admin({email: 'test@ukr.net', post:[]});
+console.log(admin); //Admin {post: Array(0), #email: 'test@ukr.net'}
+console.log(admin.email); //test@ukr.
+
+
+
 
 
 
