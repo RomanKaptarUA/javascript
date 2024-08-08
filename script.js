@@ -1169,12 +1169,12 @@
 
 
 
-const baseSalary = 20000;
-const overtime = 15;
-const rate = 20;
-const getWage = (baseSalary, overtime, rate) => {
-    return baseSalary + overtime * rate;
-}
+// const baseSalary = 20000;
+// const overtime = 15;
+// const rate = 20;
+// const getWage = (baseSalary, overtime, rate) => {
+//     return baseSalary + overtime * rate;
+// }
 
 
 
