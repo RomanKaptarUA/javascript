@@ -673,6 +673,7 @@
 // count(1, 30);
 // count(20, 25);
 
+
 // const sum = function (amount, balance) {
 //     if (amount === 0) {
 //         console.log('Введіть суму більше нуля');
@@ -1067,14 +1068,14 @@
 
     
 
-    // const a = (array, value) => {
-    //     for (let i = 0; i < array.length; i += 1){
-    //         array[i] = array[i] * value;
-    //     }
-    // }
-    // const number = [1, 2, 3, 4, 5, 6];
-    // a(number, 2);
-    // console.log(number);
+    const a = (array, value) => {
+        for (let i = 0; i < array.length; i += 1){
+            array[i] = array[i] * value;
+        }
+    }
+    const number = [1, 2, 3, 4, 5, 6];
+    a(number, 2);
+    console.log(number);
 
     // const pure = (array, value) => {
     //  const result = [];
@@ -1259,32 +1260,32 @@
 // console.log(b);
 
 //get set
-class User{
-    #mail;
-    constructor({name, age, mail }) {
-        this.name = name;
-        this.age = age;
-        this.#mail = mail;
-    }
-    get mail() {
-        return this.mail;
-    }
-    set mail(newMail) {
-        if (newMail === "") {
-            console.log("Error");
-            return;
-        }
-        this.#mail = newMail;
-    }
-}
+// class User{
+//     #mail;
+//     constructor({name, age, mail }) {
+//         this.name = name;
+//         this.age = age;
+//         this.#mail = mail;
+//     }
+//     get mail() {
+//         return this.mail;
+//     }
+//     set mail(newMail) {
+//         if (newMail === "") {
+//             console.log("Error");
+//             return;
+//         }
+//         this.#mail = newMail;
+//     }
+// }
 
 
-const c = new User({
-    mail: 'newbob@gmail.com',
-    role: User.Roles.ADMIN,
-});
-console.log(c.Roles);
-console.log(User.Roles);
+// const c = new User({
+//     mail: 'newbob@gmail.com',
+//     role: User.Roles.ADMIN,
+// });
+// console.log(c.Roles);
+// console.log(User.Roles);
 
 // class User {
 //     static #takenEmails = [];
@@ -1309,30 +1310,30 @@ console.log(User.Roles);
 
 // extends
 
-class User{
-    #email;
-    constructor(email) {
-        this.#email = email;
-    }
-    get email() {
-        return this.#email;
-    }
-    set email(newEmail) {
-      this.#email = newEmail;
-    }
-}
+// class User{
+//     #email;
+//     constructor(email) {
+//         this.#email = email;
+//     }
+//     get email() {
+//         return this.#email;
+//     }
+//     set email(newEmail) {
+//       this.#email = newEmail;
+//     }
+// }
 
-class Admin extends User{
-    // щось додаємо за потреби
-    constructor({ email, post }) {
-        super(email);
-        this.post = post;
-    }
-}
+// class Admin extends User{
+//     // щось додаємо за потреби
+//     constructor({ email, post }) {
+//         super(email);
+//         this.post = post;
+//     }
+// }
 
-const admin = new Admin({email: 'test@ukr.net', post:[]});
-console.log(admin); //Admin {post: Array(0), #email: 'test@ukr.net'}
-console.log(admin.email); //test@ukr.
+// const admin = new Admin({email: 'test@ukr.net', post:[]});
+// console.log(admin); //Admin {post: Array(0), #email: 'test@ukr.net'}
+// console.log(admin.email); //test@ukr.
 
 
 
